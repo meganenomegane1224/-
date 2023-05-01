@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.unity.animations.springbone", "com.unity.animations.springbone.csproj", "{8a4d8615-4bd7-02a4-1c18-c9dbdf517dc9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.unity.animations.springbone.editor", "com.unity.animations.springbone.editor.csproj", "{9844e40e-7691-a850-2b24-a69e61427f4e}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{6d933b13-e279-8f7d-1492-60c3392ccd21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{6f245f0c-c7af-2c26-08d0-51997bb4e2f3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8a4d8615-4bd7-02a4-1c18-c9dbdf517dc9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8a4d8615-4bd7-02a4-1c18-c9dbdf517dc9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9844e40e-7691-a850-2b24-a69e61427f4e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9844e40e-7691-a850-2b24-a69e61427f4e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6d933b13-e279-8f7d-1492-60c3392ccd21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6d933b13-e279-8f7d-1492-60c3392ccd21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6f245f0c-c7af-2c26-08d0-51997bb4e2f3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6f245f0c-c7af-2c26-08d0-51997bb4e2f3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
