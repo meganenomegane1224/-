@@ -40,7 +40,11 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.2.17f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Joystick Pack\Scripts\Editor\DynamicJoystickEditor.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Editor\JoystickEditor.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Editor\FloatingJoystickEditor.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Editor\VariableJoystickEditor.cs" />
      <Compile Include="Assets\com\heparo\terrain\toolkit\editor\TerrainToolkitEditor.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.2.17f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -310,31 +314,31 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.2.17f1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.UWP.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.2.17f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -721,142 +725,142 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.2.17f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Recorder.Editor">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.Recorder.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Runtime">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Recorder">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Editor">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Animation.Rigging.Editor">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Toonshader">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.Toonshader.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ShaderGraph.Editor">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Recorder.Base">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.Recorder.Base.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Editor">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.FilmInternalUtilities">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.FilmInternalUtilities.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="PPv2URPConverters">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Toonshader.Editor">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.Toonshader.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.FilmInternalUtilities.Editor">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.FilmInternalUtilities.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Searcher.Editor">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Recorder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Animation.Rigging">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Editor">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Toonshader">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Toonshader.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging.Editor">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder.Base">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Recorder.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.FilmInternalUtilities">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.FilmInternalUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.FilmInternalUtilities.Editor">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.FilmInternalUtilities.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Toonshader.Editor">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Toonshader.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="PPv2URPConverters">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
-        <HintPath>C:\3Dgame\発表用プロジェクト\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -864,13 +868,57 @@
       <Project>{6d933b13-e279-8f7d-1492-60c3392ccd21}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="com.unity.animations.springbone.editor.csproj">
-      <Project>{9844e40e-7691-a850-2b24-a69e61427f4e}</Project>
-      <Name>com.unity.animations.springbone.editor</Name>
+    <ProjectReference Include="Fungus.csproj">
+      <Project>{ed201cd3-fbad-1eab-e1aa-758e8696d1ee}</Project>
+      <Name>Fungus</Name>
+    </ProjectReference>
+    <ProjectReference Include="Fungus.UsfxrEditor.csproj">
+      <Project>{7b7985eb-a9a5-b7e6-52a7-5622b48372ad}</Project>
+      <Name>Fungus.UsfxrEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Fungus.FungusLuaJSONCheckerEditor.csproj">
+      <Project>{da8a25aa-0b01-d0af-ee2a-ad9ece3fbc31}</Project>
+      <Name>Fungus.FungusLuaJSONCheckerEditor</Name>
     </ProjectReference>
     <ProjectReference Include="com.unity.animations.springbone.csproj">
       <Project>{8a4d8615-4bd7-02a4-1c18-c9dbdf517dc9}</Project>
       <Name>com.unity.animations.springbone</Name>
+    </ProjectReference>
+    <ProjectReference Include="Fungus.FungusLuaEditor.csproj">
+      <Project>{261cd906-f62a-9a78-a2a6-80c74a58f6ed}</Project>
+      <Name>Fungus.FungusLuaEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Effekseer.HDRP.csproj">
+      <Project>{2fa351b5-a9d6-d167-32a8-69021d3e74c1}</Project>
+      <Name>Effekseer.HDRP</Name>
+    </ProjectReference>
+    <ProjectReference Include="Effekseer.URP.csproj">
+      <Project>{dcba03f7-1314-bac3-a5a8-a8463448f114}</Project>
+      <Name>Effekseer.URP</Name>
+    </ProjectReference>
+    <ProjectReference Include="FungusEditor.csproj">
+      <Project>{f3f2bc19-869a-17b0-fd81-64807fecb6a9}</Project>
+      <Name>FungusEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="EffekseerEditor.csproj">
+      <Project>{594ecd2f-0d8b-aac9-8a05-e94568983e0b}</Project>
+      <Name>EffekseerEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.animations.springbone.editor.csproj">
+      <Project>{9844e40e-7691-a850-2b24-a69e61427f4e}</Project>
+      <Name>com.unity.animations.springbone.editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Fungus.LineEndingsEditor.csproj">
+      <Project>{cd437e2a-ba48-b406-db67-5491cd209985}</Project>
+      <Name>Fungus.LineEndingsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Effekseer.PostProcessing.csproj">
+      <Project>{7c071613-8f3f-bc10-f1c0-036699659ed4}</Project>
+      <Name>Effekseer.PostProcessing</Name>
+    </ProjectReference>
+    <ProjectReference Include="Effekseer.csproj">
+      <Project>{619d4cd1-ee9f-ba4d-7f8e-2d4e778c3c3b}</Project>
+      <Name>Effekseer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

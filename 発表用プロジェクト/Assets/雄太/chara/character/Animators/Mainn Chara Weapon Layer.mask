@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mainn Chara Weapon Layer
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Camera
+    m_Weight: 0
+  - m_Path: Light
+    m_Weight: 0
+  - m_Path: Untitled
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/Bone.010.L
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/Bone.010.L/upperleg.L
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/Bone.010.L/upperleg.L/underleg.L
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/Bone.010.L/upperleg.L/underleg.L/knee.L
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/Bone.010.L/upperleg.L/underleg.L/knee.L/toe.L
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/Bone.010.L/upperleg.L/underleg.L/knee.L/toe.L/toe.L_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/Bone.010.L/upperleg.L/underleg.L/knee.L/toe.L/toe.L_end/toe.L_end_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/Bone.010.R
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/Bone.010.R/upperleg.R
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/Bone.010.R/upperleg.R/underleg.R
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/Bone.010.R/upperleg.R/underleg.R/knee.R
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/Bone.010.R/upperleg.R/underleg.R/knee.R/toe.R
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/Bone.010.R/upperleg.R/underleg.R/knee.R/toe.R/toe.R_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/Bone.010.R/upperleg.R/underleg.R/knee.R/toe.R/toe.R_end/toe.R_end_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/neck
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/neck/head
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/neck/head/eye.L
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/neck/head/eye.L/eye.L_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/neck/head/eye.L/eye.L_end/eye.L_end_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/neck/head/eye.R
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/neck/head/eye.R/eye.R_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/neck/head/eye.R/eye.R_end/eye.R_end_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L/middle-arm.L
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L/middle-arm.L/hand.L
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L/middle-arm.L/hand.L/uppeer-index-finger.L
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L/middle-arm.L/hand.L/uppeer-index-finger.L/middle-index-finger.L
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L/middle-arm.L/hand.L/uppeer-index-finger.L/middle-index-finger.L/under-index-finger.L
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L/middle-arm.L/hand.L/uppeer-index-finger.L/middle-index-finger.L/under-index-finger.L/under-index-finger.L_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L/middle-arm.L/hand.L/uppeer-index-finger.L/middle-index-finger.L/under-index-finger.L/under-index-finger.L_end/under-index-finger.L_end_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L/middle-arm.L/hand.L/upper-little-finger.L
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L/middle-arm.L/hand.L/upper-little-finger.L/middle-little-finger.L
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L/middle-arm.L/hand.L/upper-little-finger.L/middle-little-finger.L/under-little-finger.L
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L/middle-arm.L/hand.L/upper-little-finger.L/middle-little-finger.L/under-little-finger.L/under-little-finger.L_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L/middle-arm.L/hand.L/upper-little-finger.L/middle-little-finger.L/under-little-finger.L/under-little-finger.L_end/under-little-finger.L_end_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L/middle-arm.L/hand.L/upper-middle-finger.L
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L/middle-arm.L/hand.L/upper-middle-finger.L/middle-middle-finger.L
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L/middle-arm.L/hand.L/upper-middle-finger.L/middle-middle-finger.L/under-middle-finger.L
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L/middle-arm.L/hand.L/upper-middle-finger.L/middle-middle-finger.L/under-middle-finger.L/under-middle-finger.L_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L/middle-arm.L/hand.L/upper-middle-finger.L/middle-middle-finger.L/under-middle-finger.L/under-middle-finger.L_end/under-middle-finger.L_end_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L/middle-arm.L/hand.L/upper-ring-finger.L
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L/middle-arm.L/hand.L/upper-ring-finger.L/middle-ring-finger.L
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L/middle-arm.L/hand.L/upper-ring-finger.L/middle-ring-finger.L/under-ring-finger.L
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L/middle-arm.L/hand.L/upper-ring-finger.L/middle-ring-finger.L/under-ring-finger.L/under-ring-finger.L_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L/middle-arm.L/hand.L/upper-ring-finger.L/middle-ring-finger.L/under-ring-finger.L/under-ring-finger.L_end/under-ring-finger.L_end_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L/middle-arm.L/hand.L/upper-thumb.L
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L/middle-arm.L/hand.L/upper-thumb.L/upper-thumb.L.001
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L/middle-arm.L/hand.L/upper-thumb.L/upper-thumb.L.001/under-thumb.L
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L/middle-arm.L/hand.L/upper-thumb.L/upper-thumb.L.001/under-thumb.L/under-thumb.L_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.L/ upperarm.L/middle-arm.L/hand.L/upper-thumb.L/upper-thumb.L.001/under-thumb.L/under-thumb.L_end/under-thumb.L_end_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/uppeer-index-finger.R
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/uppeer-index-finger.R/middle-index-finger.R
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/uppeer-index-finger.R/middle-index-finger.R/under-index-finger.R
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/uppeer-index-finger.R/middle-index-finger.R/under-index-finger.R/under-index-finger.R_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/uppeer-index-finger.R/middle-index-finger.R/under-index-finger.R/under-index-finger.R_end/under-index-finger.R_end_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/upper-little-finger.R
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/upper-little-finger.R/middle-little-finger.R
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/upper-little-finger.R/middle-little-finger.R/under-little-finger.R
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/upper-little-finger.R/middle-little-finger.R/under-little-finger.R/under-little-finger.R_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/upper-little-finger.R/middle-little-finger.R/under-little-finger.R/under-little-finger.R_end/under-little-finger.R_end_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/upper-middle-finger.R
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/upper-middle-finger.R/middle-middle-finger.R
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/upper-middle-finger.R/middle-middle-finger.R/under-middle-finger.R
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/upper-middle-finger.R/middle-middle-finger.R/under-middle-finger.R/under-middle-finger.R_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/upper-middle-finger.R/middle-middle-finger.R/under-middle-finger.R/under-middle-finger.R_end/under-middle-finger.R_end_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/upper-ring-finger.R
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/upper-ring-finger.R/middle-ring-finger.R
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/upper-ring-finger.R/middle-ring-finger.R/under-ring-finger.R
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/upper-ring-finger.R/middle-ring-finger.R/under-ring-finger.R/under-ring-finger.R_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/upper-ring-finger.R/middle-ring-finger.R/under-ring-finger.R/under-ring-finger.R_end/under-ring-finger.R_end_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/upper-thumb.R
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/upper-thumb.R/upper-thumb.R.001
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/upper-thumb.R/upper-thumb.R.001/under-thumb.R
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/upper-thumb.R/upper-thumb.R.001/under-thumb.R/under-thumb.R_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/upper-thumb.R/upper-thumb.R.001/under-thumb.R/under-thumb.R_end/under-thumb.R_end_end
+    m_Weight: 0
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/Wepon
+    m_Weight: 1
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/Wepon/Wepon_end
+    m_Weight: 1
+  - m_Path: Untitled/Untitled_arm/root/hip/spine/chest/sholder.R/ upperarm.R/middle-arm.R/hand.R/Wepon/Wepon_end/Wepon_end_end
+    m_Weight: 1
+  - m_Path: Untitled_mesh
+    m_Weight: 0
