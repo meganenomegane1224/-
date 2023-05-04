@@ -43,6 +43,7 @@
      <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
      <Compile Include="Assets\雄太\Scripts\CharaDataSave.cs" />
      <Compile Include="Assets\雄太\Item\MobItemDropper.cs" />
+     <Compile Include="Assets\Menu\SkillParameter.cs" />
      <Compile Include="Assets\雄太\Scripts\Menu_Scripts\InventoryManager.cs" />
      <Compile Include="Assets\雄太\Scripts\SearchEnemy.cs" />
      <Compile Include="Assets\雄太\Scripts\SetDate.cs" />
@@ -65,8 +66,8 @@
      <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
      <Compile Include="Assets\雄太\Scripts\Enemy\Admin_Enemy_D.cs" />
      <Compile Include="Assets\雄太\Scripts\ProcessCharaAnimEvent.cs" />
-     <Compile Include="Assets\雄太\Scripts\UI\alarmUI.cs" />
      <Compile Include="Assets\雄太\Scripts\Admin_Date.cs" />
+     <Compile Include="Assets\雄太\Scripts\UI\alarmUI.cs" />
      <Compile Include="Assets\雄太\Scripts\Enemy\EnemyAttack.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
      <Compile Include="Assets\雄太\Scripts\Menu_Scripts\MenuController.cs" />
@@ -95,6 +96,7 @@
      <Compile Include="Assets\Effekseer\Example\EfkBasic.cs" />
      <Compile Include="Assets\雄太\chara\character\Animators\ContinuityAttackBehaviour.cs" />
      <Compile Include="Assets\雄太\Scripts\Enemy\Admin_Enemy_G.cs" />
+     <Compile Include="Assets\Menu\SkillSystem.cs" />
      <Compile Include="Assets\雄太\Scripts\Menu_Scripts\BGMPlaying.cs" />
      <Compile Include="Assets\雄太\Scripts\PPanelTransform.cs" />
      <Compile Include="Assets\雄太\Scripts\AppearScript.cs" />
@@ -107,8 +109,10 @@
      <Compile Include="Assets\雄太\Scripts\UI\Admi_Setting.cs" />
      <None Include="Assets\Effekseer\Materials\GrabDepthShader.shader" />
      <None Include="Assets\Effekseer\Materials\EffekseerShaderDistortionPS.cginc" />
+     <None Include="Assets\models 1\自然オブジェクト\Shaders\UI\UIPanelFade.shader" />
      <None Include="Assets\雄太\chara\character\Readme(English and Japanese).txt" />
      <None Include="Assets\Effekseer\Materials\EffekseerShaderAdLitUnlitPS.cginc" />
+     <None Include="Assets\models 1\自然オブジェクト\Shaders\Skybox-Procedural-Universal.shader" />
      <None Include="Assets\Effekseer\Materials\Texture2DArrayBlitShader.shader" />
      <None Include="Assets\Effekseer\Materials\EffekseerShaderDistortionCommonPS.cginc" />
      <None Include="Assets\Effekseer\Materials\EffekseerShaderAdCommonPS.cginc" />
@@ -122,7 +126,9 @@
      <None Include="Assets\Effekseer\Materials\FakeShader.shader" />
      <None Include="Assets\Effekseer\Materials\EffekseerShaderLitUnlitPS.cginc" />
      <None Include="Assets\Effekseer\Materials\EffekseerFixedShader.shader" />
+     <None Include="Assets\models 1\自然オブジェクト\Shaders\CustomLighting.hlsl" />
      <None Include="Assets\Effekseer\Materials\EffekseerShaderAdDistortionPS.cginc" />
+     <None Include="Assets\models 1\自然オブジェクト\Shaders\Blocker.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.2.17f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -374,6 +380,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.2.17f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -750,17 +759,17 @@
     <Reference Include="System.Xml.Serialization">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.2.17f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Recorder.Editor">
         <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Recorder.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Animation.Rigging">
-        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
         <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
         <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
@@ -846,11 +855,11 @@
     <Reference Include="Unity.FilmInternalUtilities.Editor">
         <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.FilmInternalUtilities.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Mathematics">
-        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Toonshader.Editor">
         <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Toonshader.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="PPv2URPConverters">
         <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
@@ -858,14 +867,14 @@
     <Reference Include="Unity.TextMeshPro">
         <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+    <Reference Include="Unity.TextMeshPro.Editor">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Recorder">
         <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
         <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
@@ -884,13 +893,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Fungus.csproj">
-      <Project>{ed201cd3-fbad-1eab-e1aa-758e8696d1ee}</Project>
-      <Name>Fungus</Name>
-    </ProjectReference>
-    <ProjectReference Include="Fungus.UsfxrEditor.csproj">
-      <Project>{7b7985eb-a9a5-b7e6-52a7-5622b48372ad}</Project>
-      <Name>Fungus.UsfxrEditor</Name>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{86aeb5d6-4975-a1f2-085b-885a399b5214}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="Fungus.FungusLuaJSONCheckerEditor.csproj">
       <Project>{da8a25aa-0b01-d0af-ee2a-ad9ece3fbc31}</Project>
@@ -916,25 +921,33 @@
       <Project>{f3f2bc19-869a-17b0-fd81-64807fecb6a9}</Project>
       <Name>FungusEditor</Name>
     </ProjectReference>
-    <ProjectReference Include="EffekseerEditor.csproj">
-      <Project>{594ecd2f-0d8b-aac9-8a05-e94568983e0b}</Project>
-      <Name>EffekseerEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="com.unity.animations.springbone.editor.csproj">
-      <Project>{9844e40e-7691-a850-2b24-a69e61427f4e}</Project>
-      <Name>com.unity.animations.springbone.editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Fungus.LineEndingsEditor.csproj">
       <Project>{cd437e2a-ba48-b406-db67-5491cd209985}</Project>
       <Name>Fungus.LineEndingsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Fungus.UsfxrEditor.csproj">
+      <Project>{7b7985eb-a9a5-b7e6-52a7-5622b48372ad}</Project>
+      <Name>Fungus.UsfxrEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Effekseer.PostProcessing.csproj">
       <Project>{7c071613-8f3f-bc10-f1c0-036699659ed4}</Project>
       <Name>Effekseer.PostProcessing</Name>
     </ProjectReference>
+    <ProjectReference Include="com.unity.animations.springbone.editor.csproj">
+      <Project>{9844e40e-7691-a850-2b24-a69e61427f4e}</Project>
+      <Name>com.unity.animations.springbone.editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Fungus.csproj">
+      <Project>{ed201cd3-fbad-1eab-e1aa-758e8696d1ee}</Project>
+      <Name>Fungus</Name>
+    </ProjectReference>
     <ProjectReference Include="Effekseer.csproj">
       <Project>{619d4cd1-ee9f-ba4d-7f8e-2d4e778c3c3b}</Project>
       <Name>Effekseer</Name>
+    </ProjectReference>
+    <ProjectReference Include="EffekseerEditor.csproj">
+      <Project>{594ecd2f-0d8b-aac9-8a05-e94568983e0b}</Project>
+      <Name>EffekseerEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

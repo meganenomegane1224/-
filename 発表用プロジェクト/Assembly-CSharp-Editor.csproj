@@ -730,17 +730,17 @@
     <Reference Include="UnityEngine.TestRunner">
         <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Recorder.Editor">
         <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Recorder.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Animation.Rigging">
-        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
         <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
         <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
@@ -826,11 +826,11 @@
     <Reference Include="Unity.FilmInternalUtilities.Editor">
         <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.FilmInternalUtilities.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Mathematics">
-        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Toonshader.Editor">
         <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Toonshader.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="PPv2URPConverters">
         <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
@@ -838,14 +838,14 @@
     <Reference Include="Unity.TextMeshPro">
         <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+    <Reference Include="Unity.TextMeshPro.Editor">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Recorder">
         <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
         <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
@@ -867,14 +867,6 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{6d933b13-e279-8f7d-1492-60c3392ccd21}</Project>
       <Name>Assembly-CSharp</Name>
-    </ProjectReference>
-    <ProjectReference Include="Fungus.csproj">
-      <Project>{ed201cd3-fbad-1eab-e1aa-758e8696d1ee}</Project>
-      <Name>Fungus</Name>
-    </ProjectReference>
-    <ProjectReference Include="Fungus.UsfxrEditor.csproj">
-      <Project>{7b7985eb-a9a5-b7e6-52a7-5622b48372ad}</Project>
-      <Name>Fungus.UsfxrEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Fungus.FungusLuaJSONCheckerEditor.csproj">
       <Project>{da8a25aa-0b01-d0af-ee2a-ad9ece3fbc31}</Project>
@@ -900,25 +892,33 @@
       <Project>{f3f2bc19-869a-17b0-fd81-64807fecb6a9}</Project>
       <Name>FungusEditor</Name>
     </ProjectReference>
-    <ProjectReference Include="EffekseerEditor.csproj">
-      <Project>{594ecd2f-0d8b-aac9-8a05-e94568983e0b}</Project>
-      <Name>EffekseerEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="com.unity.animations.springbone.editor.csproj">
-      <Project>{9844e40e-7691-a850-2b24-a69e61427f4e}</Project>
-      <Name>com.unity.animations.springbone.editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Fungus.LineEndingsEditor.csproj">
       <Project>{cd437e2a-ba48-b406-db67-5491cd209985}</Project>
       <Name>Fungus.LineEndingsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Fungus.UsfxrEditor.csproj">
+      <Project>{7b7985eb-a9a5-b7e6-52a7-5622b48372ad}</Project>
+      <Name>Fungus.UsfxrEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Effekseer.PostProcessing.csproj">
       <Project>{7c071613-8f3f-bc10-f1c0-036699659ed4}</Project>
       <Name>Effekseer.PostProcessing</Name>
     </ProjectReference>
+    <ProjectReference Include="com.unity.animations.springbone.editor.csproj">
+      <Project>{9844e40e-7691-a850-2b24-a69e61427f4e}</Project>
+      <Name>com.unity.animations.springbone.editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Fungus.csproj">
+      <Project>{ed201cd3-fbad-1eab-e1aa-758e8696d1ee}</Project>
+      <Name>Fungus</Name>
+    </ProjectReference>
     <ProjectReference Include="Effekseer.csproj">
       <Project>{619d4cd1-ee9f-ba4d-7f8e-2d4e778c3c3b}</Project>
       <Name>Effekseer</Name>
+    </ProjectReference>
+    <ProjectReference Include="EffekseerEditor.csproj">
+      <Project>{594ecd2f-0d8b-aac9-8a05-e94568983e0b}</Project>
+      <Name>EffekseerEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
