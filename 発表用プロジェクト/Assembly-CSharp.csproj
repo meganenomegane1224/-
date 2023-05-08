@@ -42,22 +42,39 @@
   <ItemGroup>
      <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
      <Compile Include="Assets\雄太\Scripts\CharaDataSave.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\雄太\Item\MobItemDropper.cs" />
+     <Compile Include="Assets\雄太\Scripts\ReviveArea.cs" />
      <Compile Include="Assets\Menu\SkillParameter.cs" />
+     <Compile Include="Assets\雄太\Scripts\UI\Admin_SkillTree.cs" />
      <Compile Include="Assets\雄太\Scripts\Menu_Scripts\InventoryManager.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
      <Compile Include="Assets\雄太\Scripts\SearchEnemy.cs" />
      <Compile Include="Assets\雄太\Scripts\SetDate.cs" />
      <Compile Include="Assets\雄太\Scripts\Enemy\SearchChara.cs" />
      <Compile Include="Assets\雄太\Scripts\EffectScript.cs" />
      <Compile Include="Assets\雄太\Scripts\Enemy\Admin_EnemyStatus.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
      <Compile Include="Assets\雄太\Scripts\CharaHP.cs" />
      <Compile Include="Assets\雄太\Scripts\Enemy\Admin_EnemyEffect.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
      <Compile Include="Assets\雄太\Scripts\OwnedItemsData.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
      <Compile Include="Assets\雄太\Item\Item.cs" />
      <Compile Include="Assets\雄太\Scripts\Menu_Scripts\SetSound.cs" />
      <Compile Include="Assets\雄太\Scripts\UI\Admin_UI.cs" />
+     <Compile Include="Assets\雄太\Scripts\Admin_Chest.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
      <Compile Include="Assets\雄太\Scripts\Enemy\Admin_Enemy.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+     <Compile Include="Assets\雄太\Scripts\EffectColliderSender.cs" />
      <Compile Include="Assets\雄太\Scripts\Enemy\New_EnemyMove.cs" />
      <Compile Include="Assets\雄太\Scripts\Menu_Scripts\ChangeBGM.cs" />
      <Compile Include="Assets\雄太\Scripts\UI\Toggledate.cs" />
@@ -74,7 +91,9 @@
      <Compile Include="Assets\雄太\Scripts\UI\DragHandler.cs" />
      <Compile Include="Assets\雄太\Scripts\Admin.cs" />
      <Compile Include="Assets\雄太\Scripts\TalkStartButton.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
      <Compile Include="Assets\雄太\Scripts\ItemTransform.cs" />
      <Compile Include="Assets\雄太\Scripts\Move.cs" />
      <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
@@ -83,52 +102,98 @@
      <Compile Include="Assets\雄太\Scripts\Enemy\New_ProcesEnemyAnimEvent.cs" />
      <Compile Include="Assets\雄太\Scripts\Menu_Scripts\ItemsDialog.cs" />
      <Compile Include="Assets\雄太\Scripts\ChangeCamera.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
      <Compile Include="Assets\雄太\武器\Shooting.cs" />
      <Compile Include="Assets\雄太\Scripts\ProcessWeaponAnim.cs" />
      <Compile Include="Assets\雄太\Scripts\Menu_Scripts\WeaponInformation.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
      <Compile Include="Assets\雄太\Scripts\skillTreeOnOff.cs" />
      <Compile Include="Assets\雄太\Scripts\ChangeEquip.cs" />
      <Compile Include="Assets\雄太\武器\CameraController.cs" />
      <Compile Include="Assets\雄太\Scripts\Admin_Effect.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
      <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
      <Compile Include="Assets\雄太\Scripts\Menu_Scripts\DPanelController.cs" />
      <Compile Include="Assets\Effekseer\Example\EfkBasic.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
      <Compile Include="Assets\雄太\chara\character\Animators\ContinuityAttackBehaviour.cs" />
      <Compile Include="Assets\雄太\Scripts\Enemy\Admin_Enemy_G.cs" />
      <Compile Include="Assets\Menu\SkillSystem.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
      <Compile Include="Assets\雄太\Scripts\Menu_Scripts\BGMPlaying.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
      <Compile Include="Assets\雄太\Scripts\PPanelTransform.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
      <Compile Include="Assets\雄太\Scripts\AppearScript.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+     <Compile Include="Assets\雄太\Scripts\UI\SkillTreeButton.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
      <Compile Include="Assets\雄太\Scripts\AttackByEffect.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
      <Compile Include="Assets\雄太\Scripts\Enemy\Eff_DamageArea.cs" />
+     <Compile Include="Assets\雄太\Scripts\SendTransform.cs" />
      <Compile Include="Assets\com\heparo\terrain\toolkit\scripts\TerrainToolkit.cs" />
      <Compile Include="Assets\雄太\Scripts\UI\roteCamera.cs" />
      <Compile Include="Assets\雄太\Scripts\RotatoSun.cs" />
      <Compile Include="Assets\雄太\撮影用\CameraController.cs" />
+     <Compile Include="Assets\雄太\Scripts\Admin_Auto.cs" />
      <Compile Include="Assets\雄太\Scripts\UI\Admi_Setting.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Effekseer\Materials\GrabDepthShader.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Effekseer\Materials\EffekseerShaderDistortionPS.cginc" />
      <None Include="Assets\models 1\自然オブジェクト\Shaders\UI\UIPanelFade.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
      <None Include="Assets\雄太\chara\character\Readme(English and Japanese).txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <None Include="Assets\Effekseer\Materials\EffekseerShaderAdLitUnlitPS.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\models 1\自然オブジェクト\Shaders\Skybox-Procedural-Universal.shader" />
      <None Include="Assets\Effekseer\Materials\Texture2DArrayBlitShader.shader" />
      <None Include="Assets\Effekseer\Materials\EffekseerShaderDistortionCommonPS.cginc" />
      <None Include="Assets\Effekseer\Materials\EffekseerShaderAdCommonPS.cginc" />
      <None Include="Assets\Effekseer\Materials\EffekseerShader_Linear_sRGB.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\Effekseer\Materials\Texture2DBlitShader.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\Effekseer\Materials\EffekseerShaderCommon.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\Effekseer\Materials\EffekseerShaderSoftParticlePS.cginc" />
      <None Include="Assets\Effekseer\Materials\EffekseerShaderVS.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\雄太\武器\Sound\Fantasy SFX for Particle Distort Texture effect library\readme_Fantasy SFX for Particle Distort Texture effect library.txt" />
      <None Include="Assets\Effekseer\Materials\EffekseerShaderAdVS.cginc" />
      <None Include="Assets\Effekseer\Materials\FakeShader.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\Effekseer\Materials\EffekseerShaderLitUnlitPS.cginc" />
      <None Include="Assets\Effekseer\Materials\EffekseerFixedShader.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\models 1\自然オブジェクト\Shaders\CustomLighting.hlsl" />
      <None Include="Assets\Effekseer\Materials\EffekseerShaderAdDistortionPS.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\models 1\自然オブジェクト\Shaders\Blocker.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.2.17f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -378,11 +443,11 @@
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.2.17f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="DOTween">
         <HintPath>C:\3Dgame\-\発表用プロジェクト\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.2.17f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>

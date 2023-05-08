@@ -334,6 +334,9 @@
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
         <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="DOTweenEditor">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
         <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -342,6 +345,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
         <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+        <HintPath>C:\3Dgame\-\発表用プロジェクト\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>C:\3Dgame\-\発表用プロジェクト\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>

@@ -2,16 +2,16 @@ using UnityEngine;
 
 public  class CharaDataSave:MonoBehaviour
 {
-    public const string CharacterDataKey = "CHARACTER_DATA";
+    // // public const string CharacterDataKey = "CHARACTER_DATA";
 
-    private void Update(){
+    // private void Update(){
                                                                                                 
-        var exp = Admin.MainEXP;
-        var level = Admin.CharaLevel;
+    //     // var exp = Admin.MainEXP;
+    //     // var level = Admin.CharaLevel;
 
-        PlayerPrefs.SetFloat(CharacterDataKey,exp);
-        PlayerPrefs.SetInt(CharacterDataKey,level);
+    //     // PlayerPrefs.SetFloat(CharacterDataKey,exp);
+    //     // PlayerPrefs.SetInt(CharacterDataKey,level);
 
-        PlayerPrefs.Save();
-    }
+    //     // PlayerPrefs.Save();
+    // }
 }

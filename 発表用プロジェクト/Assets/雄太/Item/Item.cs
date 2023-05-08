@@ -7,7 +7,8 @@ public class Item : MonoBehaviour
         Wood,
         Stone,
         ThrowAxe,
-        Tree
+        Tree,
+        Gear
     }
 
     [SerializeField] private ItemType type;

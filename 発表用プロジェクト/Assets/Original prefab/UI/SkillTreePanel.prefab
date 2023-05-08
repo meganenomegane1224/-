@@ -1283,7 +1283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ea823d78568dba469a9528b36169ad1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skillSystem: {fileID: 4774239116055812393}
+  skillSystem: {fileID: 0}
   type: 2
   spendPoint: 25
   skillTitle: "\u9632\u5FA1\u529Bup"
@@ -1806,7 +1806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ea823d78568dba469a9528b36169ad1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skillSystem: {fileID: 4774239116055812393}
+  skillSystem: {fileID: 0}
   type: 0
   spendPoint: 10
   skillTitle: "\u30B9\u30AD\u30EB1"
@@ -1985,7 +1985,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ea823d78568dba469a9528b36169ad1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skillSystem: {fileID: 4774239116055812393}
+  skillSystem: {fileID: 0}
   type: 3
   spendPoint: 40
   skillTitle: "\u9632\u5FA1\u529Bup"
@@ -2003,7 +2003,6 @@ GameObject:
   - component: {fileID: 5362087188229824813}
   - component: {fileID: 5362087188229824814}
   - component: {fileID: 5362087188229824815}
-  - component: {fileID: 4774239116055812393}
   m_Layer: 5
   m_Name: SkillTreePanel
   m_TagString: Untagged
@@ -2096,28 +2095,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &4774239116055812393
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5362087188229824808}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab38c14af98e6584388773021b214cd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  skillPoint: 200
-  skills: 
-  skillParams:
-  - {fileID: 8845876994513390801}
-  - {fileID: 9118573338098218289}
-  - {fileID: 7102640326031416364}
-  - {fileID: 9011046629681860598}
-  - {fileID: 7553426469489517892}
-  - {fileID: 6294728166395158781}
-  skillText: {fileID: 5726388417221074283}
 --- !u!1 &5559341482034509727
 GameObject:
   m_ObjectHideFlags: 0
@@ -2334,7 +2311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ea823d78568dba469a9528b36169ad1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skillSystem: {fileID: 4774239116055812393}
+  skillSystem: {fileID: 0}
   type: 1
   spendPoint: 5
   skillTitle: "\u653B\u6483\u529Buo2"
@@ -2476,7 +2453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ea823d78568dba469a9528b36169ad1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skillSystem: {fileID: 4774239116055812393}
+  skillSystem: {fileID: 0}
   type: 4
   spendPoint: 0
   skillTitle: 
@@ -3425,7 +3402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ea823d78568dba469a9528b36169ad1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skillSystem: {fileID: 4774239116055812393}
+  skillSystem: {fileID: 0}
   type: 5
   spendPoint: 0
   skillTitle: 

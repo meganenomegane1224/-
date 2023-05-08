@@ -30356,15 +30356,15 @@ AnimationClip:
     floatParameter: 0
     intParameter: 6
     messageOptions: 0
-  - time: 0.76666665
-    functionName: EffectOff
+  - time: 0.73333335
+    functionName: StateEnd
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.0333333
-    functionName: StateEnd
+  - time: 0.76666665
+    functionName: EffectOff
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

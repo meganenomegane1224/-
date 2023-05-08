@@ -1,7 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+//使わないスクリプト
 public class ProcessCharaAnimEvent : MonoBehaviour
 {
     private Move characterScript;

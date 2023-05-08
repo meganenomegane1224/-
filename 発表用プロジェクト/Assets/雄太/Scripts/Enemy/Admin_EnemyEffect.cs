@@ -100,16 +100,24 @@ public class Admin_EnemyEffect : MonoBehaviour
 
     void OnTriggerEnter(Collider collider)
     {
-        if(ContinueDamage == false && collider.CompareTag("Player"))
+        if(ContinueDamage == true)return;
+
+        if(collider.CompareTag("Player"))
         {
             collider.GetComponent<Move>().TakeDamage(damage);
             Debug.Log(collider + "に" + damage + "だめーじ");
+        }
+        if(collider.CompareTag("AutoChara"))
+        {
+            collider.GetComponent<Admin_Auto>().TakeDamage(damage);
         }
     }
 
     void OnTriggerStay(Collider collider)
     {
-        if(ContinueDamage == true && collider.CompareTag("Player"))
+        if(ContinueDamage == false)return;
+
+        if(collider.CompareTag("Player"))
         {
             time += Time.deltaTime;
             
@@ -118,6 +126,13 @@ public class Admin_EnemyEffect : MonoBehaviour
                 collider.GetComponent<Move>().TakeDamage(damage);
                 time = 0;
                 Debug.Log("連続攻撃");
+            }
+        }
+        if(collider.CompareTag("AutoChara"))
+        {
+            if(time > DamageInterval)
+            {
+                collider.GetComponent<Admin_Auto>().TakeDamage(damage);
             }
         }
     }

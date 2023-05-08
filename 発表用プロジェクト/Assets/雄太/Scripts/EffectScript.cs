@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 
 // 自動で消える
+// 旧型スクリプト
 public class EffectScript : MonoBehaviour {
     [SerializeField]
     private bool DestroyFlag = true;

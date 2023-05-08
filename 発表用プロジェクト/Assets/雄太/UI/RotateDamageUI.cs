@@ -1,10 +1,12 @@
 using UnityEngine;
-using System.Collections;
  
 public class RotateDamageUI : MonoBehaviour {
- 
+	private Camera main;
+ private void Start() {
+	main = Camera.main;
+ }
 	void Update() {
-		transform.rotation = Camera.main.transform.rotation;
+		transform.rotation = main.transform.rotation;
 	}
 }
  

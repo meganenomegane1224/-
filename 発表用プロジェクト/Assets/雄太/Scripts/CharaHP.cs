@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//旧型スクリプト
 public class CharaHP : MonoBehaviour
 {
     

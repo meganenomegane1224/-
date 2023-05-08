@@ -4,11 +4,11 @@ using System.Collections;
 
 public class Toggledate : MonoBehaviour
 {
-    [SerializeField] private Image backgroundImage;
-    [SerializeField] private RectTransform handle;
-    private Admin_UI admin_UI;
+    [SerializeField] private Image backgroundImage;//背景画像をアタッチ
+    [SerializeField] private RectTransform handle;//ハンドル部分の画像をアタッチ
+    private Admin_UI admin_UI;//アタッチ
     [SerializeField]
-    private int ThisToggleNumber;
+    private int ThisToggleNumber;//このトグルの個別番号を定義　トグルによって命令を出すときに使われる
 
     //スクリプト定数
     const float HANDLE_MOVE_INTERVAL_TIME = 0.02f;
@@ -27,7 +27,7 @@ public class Toggledate : MonoBehaviour
     
     private void Start()
     {
-        admin_UI = GetComponentInParent<Admin_UI>();
+        admin_UI = GetComponentInParent<Admin_UI>();//取得
     }
 
     /// <summary>
@@ -35,18 +35,18 @@ public class Toggledate : MonoBehaviour
     /// </summary>
     public void SwitchToggle()
     {
-        Value = !Value;
+        Value = !Value;//オンオフを変更
         
-        admin_UI.ChangeToggle(ThisToggleNumber);
-        StartCoroutine("MoveHandle");
+        admin_UI.ChangeToggle(ThisToggleNumber);//個別トグルナンバーに応じた引数で感知メソッドを実行
+        StartCoroutine("MoveHandle");//ハンドルを動かすコルーチンを起動
     }
 
     IEnumerator  MoveHandle()
     {
-        var n = Value? HANDLE_MOVE_RANGE:-HANDLE_MOVE_RANGE;
-        var s = admin_UI.isWorkeingMobilePlatform?MOBILE_MOVE_TIMES:WINDOWS_MOVE_TIMES;
+        var n = Value? HANDLE_MOVE_RANGE:-HANDLE_MOVE_RANGE;//オンオフに応じて、ハンドルの色を変更
+        var s = admin_UI.isWorkeingMobilePlatform?MOBILE_MOVE_TIMES:WINDOWS_MOVE_TIMES;//モバイルで動いているかいないかでハンドルの移動量を変更
 
-        for (int i = 0; i < s; i++)
+        for (int i = 0; i < s; i++)//規定回数ハンドルを移動させる　　　　　　dotweenに書き換え予定
         {
             handle.position = handle.position + new Vector3(n ,0,0);
             yield return new WaitForSecondsRealtime(HANDLE_MOVE_INTERVAL_TIME);
@@ -54,10 +54,11 @@ public class Toggledate : MonoBehaviour
         backgroundImage.color = Value? ON_BG_COLOR : OFF_BG_COLOR;
     }
 
+    //ゲーム開始時、保存　されていたトグルがオンなら実行される関数
     public void ToggleOn()
     {
-        Value = true;
-        handle.localPosition = new Vector3(55,0,0);
-        backgroundImage.color = ON_BG_COLOR;
+        Value = true;//オンにする
+        handle.localPosition = new Vector3(55,0,0);//位置を固定
+        backgroundImage.color = ON_BG_COLOR;//カラーを変える
     }
 }

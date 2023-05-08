@@ -4,41 +4,34 @@ using UnityEngine;
 
 public class SearchEnemy : MonoBehaviour {
 
-    [SerializeField]
-    private string tagName = "Enemy";        // インスペクターで変更可能
-
-    public static GameObject searchNearObj;         // 最も近いオブジェクト(public修飾子にすることで外部のクラスから参照できる)
     private Admin admin;
     private float lockOffDistance;
 
+    //定数を宣言
+    const string TAG_NAME = "Enemy";
+
     void Start() {
         admin = GetComponentInParent<Admin>();
-        // 指定したタグを持つゲームオブジェクトのうち、このゲームオブジェクトに最も近いゲームオブジェクト１つを取得
-        searchNearObj = Serch();
         lockOffDistance = admin .LockOffDistance;
     }
 
     void Update() 
     {
-        if(admin.LockOn == true && admin.LockEnemy != null)
-        {
-            float distance = Vector3.SqrMagnitude(admin.LockEnemy.transform.position - transform.position);
+        if(admin.LockOn == false && admin.LockEnemy == null) return;//主人公が敵をロックしているとき、そいつとの距離が一定以上過ぎるとロック状態を解除する
 
-            if(distance >= lockOffDistance*lockOffDistance)
-            {
-                admin.LockOff();
-            }
-        }
-        
+        float distance = Vector3.SqrMagnitude(admin.LockEnemy.transform.position - transform.position);//距離計算
+
+        if(distance < lockOffDistance*lockOffDistance)return;//距離が離れていないなら実行しない
+
+        admin.LockOff();
     }
 
     /// <summary>
     /// 指定されたタグの中で最も近いものを取得
     /// </summary>
     /// <returns></returns>
-    public GameObject Serch() 
+    public GameObject Search() 
     {
-
         // 最も近いオブジェクトの距離を代入するための変数
         float nearDistance = 0;
 
@@ -46,7 +39,7 @@ public class SearchEnemy : MonoBehaviour {
         GameObject searchTargetObj = null;
 
         // tagNameで指定されたTagを持つ、すべてのゲームオブジェクトを配列に取得
-        GameObject[] objs = GameObject.FindGameObjectsWithTag(tagName);
+        GameObject[] objs = GameObject.FindGameObjectsWithTag(TAG_NAME);
 
         // 取得したゲームオブジェクトが 0 ならnullを戻す(使用する場合にはnullでもエラーにならない処理にしておくこと)
         if (objs.Length == 0)
